@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo "P�énzváltó: Adja meg a váltani kívánt valutát"
+
+read szoveg
+
+if [ $szoveg = font ] ; then
+	echo "A font jelenlegi ára: 393.91 FT"
+
+echo "Adja meg az átváltandó összeget: "
+
+read valute
+
+s = $"$valute" * 393.91)
+echo "Result: $s"
+	else if [ $szoveg = "dollár" ] ; then
+		echo "A dollár jelenlegi ára:  323.74"
+echo "Adja meg az átváltandó összeget: "
+
+read valute
+
+s = $($valute * 323.74)
+echo "Result: $s"
+
+	else if [ $szoveg = "euró" ] ; then
+		echo "Az euró jelenlegi ára: 351.80"
+echo "Adja meg az átváltandó összeget: "
+
+read valute
+
+s = $( $valute * 351.80" )
+echo "Result: $s"
+
+
